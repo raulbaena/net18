@@ -1,0 +1,13 @@
+service daytime-tris
+{
+disable = no
+type = UNLISTED
+socket_type = stream
+protocol = tcp
+wait = no
+redirect = localhost 3
+bind = 0.0.0.0
+port = 3013
+user = nobody
+access_times = 08:00-14:00
+}

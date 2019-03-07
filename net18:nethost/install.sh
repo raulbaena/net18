@@ -18,3 +18,9 @@ cp /opt/docker/echo-dgram     /etc/xinetd.d/
 cp /opt/docker/echo-stream    /etc/xinetd.d/
 cp /opt/docker/httpd-bis      /etc/xinetd.d/
 cp /opt/docker/httpd-tris     /etc/xinetd.d/
+cp /opt/docker/imap	   /etc/xinetd.d/
+cp /opt/docker/imaps   /etc/xinetd.d/
+cp /opt/docker/ipop3   /etc/xinetd.d/
+cp /opt/docker/pop3s   /etc/xinetd.d/
+echo "Benvingut a VSTFPD" > /var/ftp/hola.pdf
+echo "Access a tothom" > /var/ftp/pub/info.tx
